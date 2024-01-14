@@ -77,7 +77,6 @@ waitLogger :: Logger -> IO ()
 ## Example Usage
 
 ```haskell
-Copy code
 -- Initialize logger with default configuration
 logger <- initLogger defaultConfig
 
