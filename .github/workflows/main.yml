@@ -32,8 +32,8 @@ name: CI
 
 on:
   push:
-    tags:
-      - v*
+    branches:
+      - '*'
 env:
   lts: 20.5
   program: template-haskell-project-exe
