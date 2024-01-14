@@ -82,10 +82,10 @@ Copy code
 logger <- initLogger defaultConfig
 
 -- Log messages with different severity levels
+logMessage logger DEBUG "This is a debug message."
 logMessage logger INFO "This is an informational message."
 logMessage logger WARNING "This is a warning message."
 logMessage logger ERROR "This is an error message."
-logMessage logger DEBUG "This is a debug message."
 
 -- Wait for the logger to finish
 waitLogger logger

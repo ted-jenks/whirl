@@ -13,7 +13,7 @@ import Control.Concurrent.STM
 import Control.Monad (forever, when)
 
 -- | The severity levels for log messages.
-data LogLevel = INFO | WARNING | ERROR | DEBUG deriving (Eq, Ord, Show)
+data LogLevel = DEBUG | INFO | WARNING | ERROR  deriving (Eq, Ord, Show)
 
 -- | Represents a log message with a severity level and a message.
 data LogMessage = LogMessage
